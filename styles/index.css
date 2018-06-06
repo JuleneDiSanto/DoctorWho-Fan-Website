@@ -1,0 +1,28 @@
+/* Index page styles */
+
+article {
+	text-align: justify;
+    text-justify: inter-word;
+	padding: 0 5px 0 5px;
+}
+
+article h2 {
+	text-align: center;
+}
+
+p {
+	padding: 2px;
+}
+
+article p::first-letter {
+	font-size: 150%;
+	font: impact;
+}
+
+#D2 {
+	width: 20%;
+	height: auto;
+	float: right;
+	margin: 15px;
+	border: 1px solid black;
+}

@@ -1,0 +1,35 @@
+/* Styles for the image page */
+
+#row1, #row2, #row3 {
+	line-height: 20px;
+	-webkit-column-count: 5;
+	-webkit-column-gap:   5px;
+	-moz-column-count:    5;
+	-moz-column-gap:      5px;
+	column-count:         5;
+	column-gap:           5px;  
+	text-align: center;
+	width: 100%;
+	margin: 10px;
+}
+
+#row1 figcaption, #row2 figcaption, #row3 figcaption {
+	border-bottom: 2px solid black;
+}
+
+article img {
+	width: 180px;
+	height: 210px;
+	border: 2px solid black;
+}
+
+article img:hover, img:focus {
+	-webkit-transform: scale(1.4);
+	-moz-transform: scale(1.4);
+	-o-transform: scale(1.4);
+	transform: scale(1.4);
+	-webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
